@@ -16,6 +16,23 @@ It works in the following steps:
 
 This method allows resolving pronouns like "तो", "तिने", or "त्यांनी" back to the correct noun (e.g., "राम", "सारिका", "मित्रांनी") using both **linguistic signals and graph-based relationships**.
 
+Example : 
+Step 1: Gender Detection
+- `सारिकाने` → female
+- `तिने` → female
+
+Step 2: Hyperedge Creation
+- `{'सारिकाने', 'तिने'}` → Score: 2.0 (gender + pronoun boost)
+- `{'तिने', 'बनवले'}` → Score: 0.6
+- ...
+
+Step 3: Clustering
+- Top cluster pair: `तिने ↔ सारिकाने` (Score: 2.0)
+- This is used to resolve that "तिने" refers to "सारिकाने"
+
+
+ Final output : सारिकाने जेवण बनवले, तिने चांगले जेवण बनवले.
+
 ---
 
 👩‍💻 Contributors
@@ -23,3 +40,7 @@ This method allows resolving pronouns like "तो", "तिने", or "त्�
 - Mansi Jangle – Core idea and model development  
 - Tanishq Shinde – Logic implementation and testing  
 - Misbah Bagwan – Support in model design and evaluation
+
+
+⚠️ Note: This project is currently under development. 
+Our team is actively working on improving the algorithm and verifying results.
