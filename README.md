@@ -1,4 +1,4 @@
-# 🧠 Marathi Coreference Resolution using Hypergraphs
+# Marathi Coreference Resolution using Hypergraphs
 
 This project performs coreference resolution in Marathi using a **hypergraph-based approach**.
 
