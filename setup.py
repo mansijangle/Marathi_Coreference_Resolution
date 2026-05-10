@@ -7,7 +7,9 @@ setup(
 
     author="Mansi Jangle",
 
-    description="Marathi Coreference Resolution Library",
+    description="Marathi Coreference Resolution using Hypergraphs",
+
+    url="https://github.com/mansijangle/Marathi_Coreference_Resolution",
 
     packages=find_packages(),
 
