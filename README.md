@@ -134,7 +134,7 @@ If you wish to add more annotations or help expand this corpus, feel free to ope
 
 For questions, collaboration, or academic use cases:
 
-**Tanishq Shinde**
+**Mansi Jangle**
 Department of Computer Engineering
 Pune Institute of Computer Technology
 
